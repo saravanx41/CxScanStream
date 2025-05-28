@@ -13,8 +13,8 @@ CxScanStream is a lightweight Python script that generates detailed security rep
 - **CSV Report**: Creates Final_Monthly_CX_Report_YYYYMMDD.csv with findings (Repo Name, Project ID, Branch, Scan ID, severities for SAST/SCA/KICS/APISEC).
 - **HTML Dashboard**: Generates Checkmarx_Dashboard_YYYYMMDD.html with pagination for 10,000+ repos, severity chart, and summary.
 - **All Scans**: Processes all SAST, SCA, KICS, APISEC scans on master, main, develop branches.(or update script for custom branches)
-- **Fast**: ~50-60 seconds for 140 projects. [Tested]
-- **Simple Auth**: Uses CHECKMARX_TOKEN from .env. [Login to checkmarx, inspect and get the bearer token]
+- **Fast**: ~50-60 seconds for 140 projects.
+- **Simple Auth**: Uses CHECKMARX_TOKEN from .env. 
 
 ### Requirements
 - Python: 3.8+
