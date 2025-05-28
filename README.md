@@ -15,6 +15,8 @@ CxScanStream is a lightweight Python script that generates detailed security rep
 - **All Scans**: Processes all SAST, SCA, KICS, APISEC scans on master, main, develop branches.(or update script for custom branches)
 - **Fast**: ~50-60 seconds for 140 projects.
 - **Simple Auth**: Uses CHECKMARX_TOKEN from .env. 
+### Note
+CxScanStream processes only the latest completed scan per project for efficiency. Historical scans are not included.
 
 ### Requirements
 - Python: 3.8+
